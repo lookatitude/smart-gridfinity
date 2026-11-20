@@ -43,6 +43,8 @@ Needs OpenSCAD 2021.01 or newer. Printable files go to `build/`, which is not in
 
 Sized for a 256 mm print bed.
 
+Ready-made STL files are attached to the [releases](https://github.com/lookatitude/smart-gridfinity/releases). They are untested.
+
 ## Checks
 
 Needs Python 3, OpenSCAD and, for the boards, KiCad 10.
