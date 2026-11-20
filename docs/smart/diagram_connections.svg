@@ -1,37 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img" aria-label="System diagram: a 12 to 24 volt supply feeds the power bin on starter tile B, power runs through an edge connector into tile A and up into every bin, and each tile talks to the power bin by radio"><title>System diagram: a 12 to 24 volt supply feeds the power bin on starter tile B, power runs through an edge connector into tile A and up into every bin, and each tile talks to the power bin by radio</title><style>text{font-family:"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;font-size:13px;fill:#17202b}.small{font-size:12.5px;fill:#485563}.lead{stroke:#485563;stroke-width:1;fill:none}</style><rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
-        <rect x="40" y="16" width="230" height="50" rx="4" fill="none" stroke="#17202b" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img" aria-label="System diagram: a 12 to 24 volt supply feeds the power bin on starter tile B, power runs through an edge connector into tile A and up into every bin, and each tile talks to the power bin by radio"><title>System diagram: a 12 to 24 volt supply feeds the power bin on starter tile B, power runs through an edge connector into tile A and up into every bin, and each tile talks to the power bin by radio</title><style>text{font-family:"Inter","Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;font-size:13px;fill:#e9eef3}.small{font-size:12.5px;fill:#9aa8b6}.lead{stroke:#9aa8b6;stroke-width:1;fill:none}</style><rect x="0" y="0" width="760" height="330" fill="#131a22"/>
+        <rect x="40" y="16" width="230" height="50" rx="4" fill="none" stroke="#e9eef3" stroke-width="1.5"/>
         <text x="155" y="38" text-anchor="middle">Your software or agent</text>
         <text x="155" y="56" text-anchor="middle" class="small">table: bin and compartment to contents</text>
-        <path d="M270 41 H600 V120" fill="none" stroke="#0b6f85" stroke-width="2" stroke-dasharray="6 4"/>
+        <path d="M270 41 H600 V120" fill="none" stroke="#4fd1e0" stroke-width="2" stroke-dasharray="6 4"/>
         <text x="430" y="33" text-anchor="middle" class="small">home Wi-Fi</text>
-        <g fill="none" stroke="#0b6f85" stroke-width="1.5" stroke-dasharray="3 4">
+        <g fill="none" stroke="#4fd1e0" stroke-width="1.5" stroke-dasharray="3 4">
           <path d="M40 258 C0 150, 380 70, 560 120"/>
           <path d="M520 246 C520 200, 530 180, 540 170"/>
         </g>
-        <rect x="40" y="236" width="300" height="44" rx="4" fill="#7b8794" opacity=".35"/>
-        <rect x="380" y="236" width="300" height="44" rx="4" fill="#7b8794" opacity=".35"/>
-        <rect x="46" y="244" width="24" height="28" rx="2" fill="#ffffff" stroke="#0b6f85" stroke-width="1.5"/>
-        <rect x="508" y="244" width="24" height="28" rx="2" fill="#ffffff" stroke="#0b6f85" stroke-width="1.5"/>
+        <rect x="40" y="236" width="300" height="44" rx="4" fill="#5d6975" opacity=".35"/>
+        <rect x="380" y="236" width="300" height="44" rx="4" fill="#5d6975" opacity=".35"/>
+        <rect x="46" y="244" width="24" height="28" rx="2" fill="#131a22" stroke="#4fd1e0" stroke-width="1.5"/>
+        <rect x="508" y="244" width="24" height="28" rx="2" fill="#131a22" stroke="#4fd1e0" stroke-width="1.5"/>
         <text x="52" y="298" class="small">Tile A, with its row boards</text>
         <text x="668" y="298" text-anchor="end" class="small">Starter tile B, with its row boards</text>
-        <rect x="340" y="246" width="40" height="24" fill="#9aa3ad"/>
+        <rect x="340" y="246" width="40" height="24" fill="#c3cad1"/>
         <text x="360" y="318" text-anchor="middle" class="small">magnetic edge connector: 12–24 V, ground, neighbour pin</text>
         <path class="lead" d="M360 272 V304"/>
-        <g fill="#e39a2d" opacity=".45">
+        <g fill="#d48f2a" opacity=".45">
           <rect x="80" y="150" width="130" height="84" rx="4"/>
           <rect x="228" y="170" width="96" height="64" rx="4"/>
           <rect x="400" y="150" width="96" height="84" rx="4"/>
         </g>
-        <rect x="540" y="120" width="120" height="114" rx="4" fill="none" stroke="#17202b" stroke-width="1.5"/>
+        <rect x="540" y="120" width="120" height="114" rx="4" fill="none" stroke="#e9eef3" stroke-width="1.5"/>
         <text x="145" y="188" text-anchor="middle">2×1 bin</text>
         <text x="276" y="200" text-anchor="middle">1×1 bin</text>
         <text x="448" y="188" text-anchor="middle">1×1 bin</text>
         <text x="600" y="166" text-anchor="middle">Power bin</text>
         <text x="600" y="184" text-anchor="middle" class="small">hub radio, fuse</text>
-        <path d="M748 200 H660" fill="none" stroke="#c8372d" stroke-width="2.5"/>
-        <path d="M660 200 l10 -5 v10 z" fill="#c8372d"/>
+        <path d="M748 200 H660" fill="none" stroke="#ff7468" stroke-width="2.5"/>
+        <path d="M660 200 l10 -5 v10 z" fill="#ff7468"/>
         <text x="748" y="190" text-anchor="end" class="small">12–24 V DC</text>
-        <g fill="none" stroke="#c8372d" stroke-width="2.5">
+        <g fill="none" stroke="#ff7468" stroke-width="2.5">
           <path d="M660 200 H600 V258 H100"/>
           <path d="M145 258 V234"/><path d="M276 258 V234"/><path d="M448 258 V234"/>
         </g>

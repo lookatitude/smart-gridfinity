@@ -23,9 +23,12 @@ caption() {   # caption for frame $1
 frame() {   # render frame $1 once, with its caption
     local f=$1 raw="$WORK/raw_$1.png" out="$WORK/frame_$1.png"
     [[ -s "$out" ]] && return
-    openscad -o "$raw" -D f="$f" --imgsize=960,540 --colorscheme=Tomorrow --projection=p \
+    [[ -s "$raw" ]] || openscad -o "$raw" -D f="$f" --imgsize=960,540 --colorscheme=Tomorrow --projection=p \
         --camera="$CAMERA" assembly_intro.scad 2>&1 | grep -E 'WARNING|ERROR' || true
-    magick "$raw" -resize 800x450 -gravity south -background '#17202b' -splice 0x44 \
+    # the render's flat light background becomes the docs site's dark surface
+    magick "$raw" -alpha off -fuzz 3% -fill '#131a22' -floodfill +1+1 '#f8f8f8' -floodfill +958+1 '#f8f8f8' \
+        -floodfill +1+538 '#f8f8f8' -floodfill +958+538 '#f8f8f8' \
+        -resize 800x450 -gravity south -background '#0c1117' -splice 0x44 \
         -font "$FONT" -pointsize 21 -fill white -annotate +0+11 "$(caption "$f")" "$out"
 }
 

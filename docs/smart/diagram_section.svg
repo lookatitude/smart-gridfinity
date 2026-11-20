@@ -1,26 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-170 -22 890 352" width="890" height="352" role="img" aria-label="Cross-section of a bin seated in a tile, showing the round bin board in the foot with its rings on the underside, the pocket above it for the ID chip and LED connector, the clear false floor with an LED under it, and the spring pin"><title>Cross-section of a bin seated in a tile, showing the round bin board in the foot with its rings on the underside, the pocket above it for the ID chip and LED connector, the clear false floor with an LED under it, and the spring pin</title><style>text{font-family:"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;font-size:13px;fill:#17202b}.small{font-size:12.5px;fill:#485563}.lead{stroke:#485563;stroke-width:1;fill:none}</style><rect x="-170" y="-22" width="890" height="352" fill="#ffffff"/>
-        <path d="M92 162.8 L109.2 180 L109.2 194.4 L114.8 200 L405.2 200 L410.8 194.4 L410.8 180 L428 162.8 L428 229.6 L408.8 229.6 L408.8 225.6 L284 225.6 L284 257.6 L236 257.6 L236 225.6 L111.2 225.6 L111.2 229.6 L92 229.6 Z" fill="#7b8794"/>
-        <rect x="104.8" y="181.6" width="4.6" height="10.4" fill="#ffffff"/><rect x="410.6" y="181.6" width="4.6" height="10.4" fill="#ffffff"/>
-        <rect x="251.2" y="199" width="17.6" height="59" fill="#ffffff"/>
-        <rect x="254" y="197" width="12" height="67" rx="2" fill="#9aa3ad"/>
-        <path d="M117.6 200 L111.2 193.6 L111.2 179.2 L94 162 L94 0 L97.2 0 L109.2 12 L109.2 26.4 L114.8 32 L101.6 45.2 L101.6 107.2 L114.8 107.2 L114.8 144 L405.2 144 L405.2 107.2 L418.4 107.2 L418.4 45.2 L405.2 32 L410.8 26.4 L410.8 12 L422.8 0 L426 0 L426 162 L408.8 179.2 L408.8 193.6 L402.4 200 Z" fill="#e39a2d"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-170 -22 890 352" width="890" height="352" role="img" aria-label="Cross-section of a bin seated in a tile, showing the round bin board in the foot with its rings on the underside, the pocket above it for the ID chip and LED connector, the clear false floor with an LED under it, and the spring pin"><title>Cross-section of a bin seated in a tile, showing the round bin board in the foot with its rings on the underside, the pocket above it for the ID chip and LED connector, the clear false floor with an LED under it, and the spring pin</title><style>text{font-family:"Inter","Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;font-size:13px;fill:#e9eef3}.small{font-size:12.5px;fill:#9aa8b6}.lead{stroke:#9aa8b6;stroke-width:1;fill:none}</style><rect x="-170" y="-22" width="890" height="352" fill="#131a22"/>
+        <path d="M92 162.8 L109.2 180 L109.2 194.4 L114.8 200 L405.2 200 L410.8 194.4 L410.8 180 L428 162.8 L428 229.6 L408.8 229.6 L408.8 225.6 L284 225.6 L284 257.6 L236 257.6 L236 225.6 L111.2 225.6 L111.2 229.6 L92 229.6 Z" fill="#5d6975"/>
+        <rect x="104.8" y="181.6" width="4.6" height="10.4" fill="#131a22"/><rect x="410.6" y="181.6" width="4.6" height="10.4" fill="#131a22"/>
+        <rect x="251.2" y="199" width="17.6" height="59" fill="#131a22"/>
+        <rect x="254" y="197" width="12" height="67" rx="2" fill="#c3cad1"/>
+        <path d="M117.6 200 L111.2 193.6 L111.2 179.2 L94 162 L94 0 L97.2 0 L109.2 12 L109.2 26.4 L114.8 32 L101.6 45.2 L101.6 107.2 L114.8 107.2 L114.8 144 L405.2 144 L405.2 107.2 L418.4 107.2 L418.4 45.2 L405.2 32 L410.8 26.4 L410.8 12 L422.8 0 L426 0 L426 162 L408.8 179.2 L408.8 193.6 L402.4 200 Z" fill="#d48f2a"/>
         <!-- parts pocket, cable hole -->
-        <rect x="164" y="152" width="192" height="37" fill="#ffffff"/>
-        <rect x="236" y="143" width="48" height="10" fill="#ffffff"/>
+        <rect x="164" y="152" width="192" height="37" fill="#131a22"/>
+        <rect x="236" y="143" width="48" height="10" fill="#131a22"/>
         <!-- bin board and rings -->
-        <rect x="145.6" y="188" width="228.8" height="12.8" fill="#1b8048" opacity=".55"/>
-        <g><rect x="148" y="199" width="16" height="2.6" fill="#3a4654"/><rect x="356" y="199" width="16" height="2.6" fill="#3a4654"/>
-        <rect x="178.4" y="199" width="16" height="2.6" fill="#c8372d"/><rect x="325.6" y="199" width="16" height="2.6" fill="#c8372d"/>
-        <rect x="208.8" y="199" width="16" height="2.6" fill="#b97f00"/><rect x="295.2" y="199" width="16" height="2.6" fill="#b97f00"/>
-        <rect x="239.2" y="199" width="41.6" height="2.6" fill="#1b8048"/></g>
-        <rect x="244" y="164" width="32" height="24" rx="1.5" fill="#17202b"/>
-        <rect x="300" y="178" width="30" height="10" rx="1.5" fill="#17202b"/>
-        <path d="M260 164 V141" fill="none" stroke="#b97f00" stroke-width="2"/>
+        <rect x="145.6" y="188" width="228.8" height="12.8" fill="#62d08e" opacity=".55"/>
+        <g><rect x="148" y="199" width="16" height="2.6" fill="#b9c3cd"/><rect x="356" y="199" width="16" height="2.6" fill="#b9c3cd"/>
+        <rect x="178.4" y="199" width="16" height="2.6" fill="#ff7468"/><rect x="325.6" y="199" width="16" height="2.6" fill="#ff7468"/>
+        <rect x="208.8" y="199" width="16" height="2.6" fill="#ffc94a"/><rect x="295.2" y="199" width="16" height="2.6" fill="#ffc94a"/>
+        <rect x="239.2" y="199" width="41.6" height="2.6" fill="#62d08e"/></g>
+        <rect x="244" y="164" width="32" height="24" rx="1.5" fill="#e9eef3"/>
+        <rect x="300" y="178" width="30" height="10" rx="1.5" fill="#e9eef3"/>
+        <path d="M260 164 V141" fill="none" stroke="#ffc94a" stroke-width="2"/>
         <!-- false floor and LED -->
-        <path d="M116.4 107.2 L403.6 107.2 L403.6 144 L394 144 L394 116.8 L126 116.8 L126 144 L116.4 144 Z" fill="#bfe6f2" stroke="#0b6f85" stroke-width="1"/>
-        <rect x="218" y="132.8" width="84" height="8" fill="#1b8048" opacity=".55"/>
-        <rect x="240" y="116.8" width="40" height="16" fill="#b97f00"/>
-        <g fill="none" stroke="#9aa3ad" stroke-width="1.5" stroke-dasharray="5 3"><rect x="338" y="180.8" width="52" height="19.2"/><rect x="338" y="200" width="52" height="19.2"/></g>
+        <path d="M116.4 107.2 L403.6 107.2 L403.6 144 L394 144 L394 116.8 L126 116.8 L126 144 L116.4 144 Z" fill="#8fd3e6" stroke="#4fd1e0" stroke-width="1"/>
+        <rect x="218" y="132.8" width="84" height="8" fill="#62d08e" opacity=".55"/>
+        <rect x="240" y="116.8" width="40" height="16" fill="#ffc94a"/>
+        <g fill="none" stroke="#c3cad1" stroke-width="1.5" stroke-dasharray="5 3"><rect x="338" y="180.8" width="52" height="19.2"/><rect x="338" y="200" width="52" height="19.2"/></g>
         <g text-anchor="end">
           <text x="60" y="84">Clear false floor: this is what glows</text><path class="lead" d="M66 80 L160 80 L160 107"/>
           <text x="60" y="130">LED under the floor, facing up</text><path class="lead" d="M66 126 L240 126"/>

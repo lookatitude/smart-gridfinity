@@ -150,7 +150,8 @@ if (view == "tile_vs_cell") {
 }
 
 // Every printed part, laid out separately with its name: base and bins, then the drawer unit.
-module tag(t, dy = -52) { color("#222") translate([0, dy, 0]) linear_extrude(0.6) text(t, size = 8, halign = "center", font = "Liberation Sans:style=Bold"); }
+TAG_COLOR = "#e9eef3";   // light: the pictures are shown on a dark page
+module tag(t, dy = -52) { color(TAG_COLOR) translate([0, dy, 0]) linear_extrude(0.6) text(t, size = 8, halign = "center", font = "Liberation Sans:style=Bold"); }
 if (view == "allparts") {
     translate([0, 0, UNDER_H]) color("dimgray") smart_base(2, 2);                      tag("tile 2x2", -56);
     translate([105, 0, 0]) { translate([0, 0, UNDER_H]) color("slategray") smart_base(2, 2, power = true); tag("starter tile", -56); }

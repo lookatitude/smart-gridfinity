@@ -1,32 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 262" width="700" height="262" role="img" aria-label="Top view of a socket floor with four pins in a row, bottom view of a bin foot with a round board carrying a centre pad and three rings, and a 3 by 2 bin with boards in two opposite corners"><title>Top view of a socket floor with four pins in a row, bottom view of a bin foot with a round board carrying a centre pad and three rings, and a 3 by 2 bin with boards in two opposite corners</title><style>text{font-family:"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;font-size:13px;fill:#17202b}.small{font-size:12.5px;fill:#485563}.lead{stroke:#485563;stroke-width:1;fill:none}</style><rect x="0" y="0" width="700" height="262" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 262" width="700" height="262" role="img" aria-label="Top view of a socket floor with four pins in a row, bottom view of a bin foot with a round board carrying a centre pad and three rings, and a 3 by 2 bin with boards in two opposite corners"><title>Top view of a socket floor with four pins in a row, bottom view of a bin foot with a round board carrying a centre pad and three rings, and a 3 by 2 bin with boards in two opposite corners</title><style>text{font-family:"Inter","Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;font-size:13px;fill:#e9eef3}.small{font-size:12.5px;fill:#9aa8b6}.lead{stroke:#9aa8b6;stroke-width:1;fill:none}</style><rect x="0" y="0" width="700" height="262" fill="#131a22"/>
         <text x="104" y="18" text-anchor="middle">Socket floor (tile), from above</text>
-        <rect x="20" y="30" width="168" height="168" rx="16" fill="#7b8794" opacity=".35" stroke="#7b8794"/>
-        <rect x="31" y="41" width="146" height="146" rx="6" fill="#ffffff" stroke="#7b8794"/>
-        <g fill="#9aa3ad"><circle cx="52" cy="62" r="13"/><circle cx="156" cy="62" r="13"/><circle cx="52" cy="166" r="13"/><circle cx="156" cy="166" r="13"/></g>
-        <circle cx="52" cy="166" r="6" fill="#ffffff" stroke="#485563" stroke-width="1.5"/>
-        <circle cx="104" cy="114" r="4.5" fill="#1b8048"/>
-        <circle cx="125.6" cy="114" r="4.5" fill="#b97f00"/>
-        <circle cx="140.8" cy="114" r="4.5" fill="#c8372d"/>
-        <circle cx="156" cy="114" r="4.5" fill="#3a4654"/>
+        <rect x="20" y="30" width="168" height="168" rx="16" fill="#5d6975" opacity=".35" stroke="#5d6975"/>
+        <rect x="31" y="41" width="146" height="146" rx="6" fill="#131a22" stroke="#5d6975"/>
+        <g fill="#c3cad1"><circle cx="52" cy="62" r="13"/><circle cx="156" cy="62" r="13"/><circle cx="52" cy="166" r="13"/><circle cx="156" cy="166" r="13"/></g>
+        <circle cx="52" cy="166" r="6" fill="#131a22" stroke="#9aa8b6" stroke-width="1.5"/>
+        <circle cx="104" cy="114" r="4.5" fill="#62d08e"/>
+        <circle cx="125.6" cy="114" r="4.5" fill="#ffc94a"/>
+        <circle cx="140.8" cy="114" r="4.5" fill="#ff7468"/>
+        <circle cx="156" cy="114" r="4.5" fill="#b9c3cd"/>
         <text x="104" y="216" text-anchor="middle" class="small">front</text>
         <text x="104" y="236" text-anchor="middle" class="small">ringed pocket: magnet or wall screw</text>
         <text x="324" y="18" text-anchor="middle">Bin foot, from below</text>
-        <rect x="253" y="43" width="142" height="142" rx="6" fill="#e39a2d" opacity=".45" stroke="#e39a2d"/>
-        <g fill="#9aa3ad"><circle cx="272" cy="62" r="13"/><circle cx="376" cy="62" r="13"/><circle cx="272" cy="166" r="13"/><circle cx="376" cy="166" r="13"/></g>
-        <circle cx="324" cy="114" r="57.2" fill="#ffffff" stroke="#485563"/>
-        <circle cx="324" cy="114" r="52" fill="none" stroke="#3a4654" stroke-width="8"/>
-        <circle cx="324" cy="114" r="36.8" fill="none" stroke="#c8372d" stroke-width="8"/>
-        <circle cx="324" cy="114" r="21.6" fill="none" stroke="#b97f00" stroke-width="8"/>
-        <circle cx="324" cy="114" r="10.4" fill="#1b8048"/>
-        <rect x="254" y="82" width="5" height="64" fill="#17202b"/><rect x="389" y="82" width="5" height="64" fill="#17202b"/>
+        <rect x="253" y="43" width="142" height="142" rx="6" fill="#d48f2a" opacity=".45" stroke="#d48f2a"/>
+        <g fill="#c3cad1"><circle cx="272" cy="62" r="13"/><circle cx="376" cy="62" r="13"/><circle cx="272" cy="166" r="13"/><circle cx="376" cy="166" r="13"/></g>
+        <circle cx="324" cy="114" r="57.2" fill="#131a22" stroke="#9aa8b6"/>
+        <circle cx="324" cy="114" r="52" fill="none" stroke="#b9c3cd" stroke-width="8"/>
+        <circle cx="324" cy="114" r="36.8" fill="none" stroke="#ff7468" stroke-width="8"/>
+        <circle cx="324" cy="114" r="21.6" fill="none" stroke="#ffc94a" stroke-width="8"/>
+        <circle cx="324" cy="114" r="10.4" fill="#62d08e"/>
+        <rect x="254" y="82" width="5" height="64" fill="#e9eef3"/><rect x="389" y="82" width="5" height="64" fill="#e9eef3"/>
         <text x="324" y="216" text-anchor="middle" class="small">dark bars: snap latches</text>
         <text x="566" y="18" text-anchor="middle">A 3×2 bin, from below</text>
-        <rect x="485" y="48" width="162" height="108" rx="6" fill="#e39a2d" opacity=".45" stroke="#e39a2d"/>
-        <g fill="none" stroke="#485563"><rect x="485" y="48" width="54" height="54"/><rect x="539" y="48" width="54" height="54"/><rect x="593" y="48" width="54" height="54"/><rect x="485" y="102" width="54" height="54"/><rect x="539" y="102" width="54" height="54"/><rect x="593" y="102" width="54" height="54"/></g>
-        <path d="M512 129 L620 75" fill="none" stroke="#1b8048" stroke-width="2"/>
-        <g fill="#ffffff" stroke="#485563"><circle cx="512" cy="129" r="19"/><circle cx="620" cy="75" r="19"/></g>
-        <g fill="none" stroke-width="3"><circle cx="512" cy="129" r="16" stroke="#3a4654"/><circle cx="512" cy="129" r="11" stroke="#c8372d"/><circle cx="512" cy="129" r="6.5" stroke="#b97f00"/></g>
-        <circle cx="512" cy="129" r="3.5" fill="#1b8048"/><circle cx="620" cy="75" r="3.5" fill="#1b8048"/>
+        <rect x="485" y="48" width="162" height="108" rx="6" fill="#d48f2a" opacity=".45" stroke="#d48f2a"/>
+        <g fill="none" stroke="#9aa8b6"><rect x="485" y="48" width="54" height="54"/><rect x="539" y="48" width="54" height="54"/><rect x="593" y="48" width="54" height="54"/><rect x="485" y="102" width="54" height="54"/><rect x="539" y="102" width="54" height="54"/><rect x="593" y="102" width="54" height="54"/></g>
+        <path d="M512 129 L620 75" fill="none" stroke="#62d08e" stroke-width="2"/>
+        <g fill="#131a22" stroke="#9aa8b6"><circle cx="512" cy="129" r="19"/><circle cx="620" cy="75" r="19"/></g>
+        <g fill="none" stroke-width="3"><circle cx="512" cy="129" r="16" stroke="#b9c3cd"/><circle cx="512" cy="129" r="11" stroke="#ff7468"/><circle cx="512" cy="129" r="6.5" stroke="#ffc94a"/></g>
+        <circle cx="512" cy="129" r="3.5" fill="#62d08e"/><circle cx="620" cy="75" r="3.5" fill="#62d08e"/>
         <text x="566" y="180" text-anchor="middle" class="small">full board in one foot</text>
         <text x="566" y="198" text-anchor="middle" class="small">bare board in the far corner</text>
         <text x="566" y="216" text-anchor="middle" class="small">centre pads wired together</text>
