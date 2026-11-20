@@ -58,6 +58,11 @@ The software and firmware for this do not exist yet.
 
 Bins have no battery, no radio and no processor. Only the tiles and the power bin use radio.
 
+![System diagram: supply into the power bin, power through the tiles up into the bins, radio between tiles and power bin](smart/diagram_connections.svg)
+
+*Red: power, 12–24 V between tiles and 5 V from each tile up into its bins. Teal: radio, one
+per tile and one in the power bin.*
+
 ## Contacts between bin and tile
 
 Each cell has four spring pins in a row from its centre. The bin board has a centre pad and
@@ -70,11 +75,23 @@ three rings, so a bin works whichever way round you drop it in.
 | Ring 2 | 9.2 mm | 5 V |
 | Ring 3 | 12.9 mm | Ground |
 
+![A socket floor with four pins in a row, a bin foot with its ringed board, and a 3×2 bin with boards in two opposite corners](smart/diagram_contacts.svg)
+
+*Left: the four pins of one cell. Middle: the bin board's centre pad and rings. Right: a
+larger bin has a board in two opposite corners, which is how its footprint is known.*
+
 ![Bin board underside: a centre pad and three rings](smart/pcb_bin_bottom.png)
 
 The magnets carry no electricity. They only pull the bin board onto the pins. Flat, gravity
 helps; on a wall, two snap latches on the bin foot click into a groove in the socket.
 Standard Gridfinity bins still fit these sockets, unpowered.
+
+### Section through one cell
+
+![Cross-section of a bin seated in a tile](smart/diagram_section.svg)
+
+*Drawn to scale, cut through the middle of a 1×1 bin on a tile. The spring pin comes up
+through the socket floor and touches the bin board. The LED sits under the clear false floor.*
 
 ## The tile
 
@@ -93,6 +110,12 @@ One board lies under every row of cells, with that row's spring pins already sol
 
 *Green: the first row's board. Gold: the strips of the further rows. White: flat cables.
 Blue: edge connectors.*
+
+![Plan of the boards in a tile three rows deep](smart/diagram_wiring.svg)
+
+*A tile three rows deep, from above. Each group of four dots is one cell's pins: ID (green),
+light commands (amber), 5 V (red), ground (dark). The teal line is the leads from the edge
+connectors.*
 
 - **First row's board** has the radio module and the converter that makes 5 V from the
   12–24 V feed. It picks one row and one cell at a time.
@@ -155,6 +178,11 @@ slides. A clear strip on the front shows which drawer and column to open.
 ## A whole collection
 
 ![The test collection laid out on eight tiles](smart/collection.png)
+
+![Plan of the full collection: eight tiles carrying sixteen bins](smart/diagram_collection.svg)
+
+*The same layout as a plan. Dashed lines are tile edges: two 4×3, four 3×3 and two 2×3 tiles.
+Each circle is one compartment; the highlighted ones are lit for the request "yellow".*
 
 The scenario used to test the plan: 48 paint jars, 8 bottles, a pen holder and the power bin
 on eight tiles of three sizes, 72 cells in all. In simulation, the hub placed all 8 tiles
