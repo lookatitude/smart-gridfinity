@@ -1,7 +1,9 @@
 ---
+importance: low
 schema_version: guild.glossary.v1
 title: Glossary
 description: Guild operating terms. Add this project's own terms below; Guild never overwrites this file.
+recall_importance: 3
 ---
 
 # Glossary

@@ -1,7 +1,9 @@
 ---
+importance: high
 title: Architecture map (stub)
-status: candidate
+status: reviewed
 derived_from: cheap scan, run-20261120-011815-init (no commit yet)
+recall_importance: 3
 ---
 
 # Architecture map (stub)
