@@ -1,5 +1,7 @@
 # Documentation
 
+![Animation: tiles joining, the power bin, bins dropping in, each bin identified, then one compartment lighting up](intro.gif)
+
 Start with **[How it works](how-it-works.md)**. It explains the whole system with pictures
 in about ten minutes. Everything else goes deeper on one topic.
 
