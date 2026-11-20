@@ -4,6 +4,10 @@ Smart Gridfinity is a Gridfinity base that knows which bin stands where, and bin
 light up one compartment at a time. This page walks through the whole system. Nothing here
 has been built yet: see [Status](status.md) for what is verified and what is not.
 
+![Animation: a starter tile, more tiles joining, the power bin, bins dropping in, each bin identified, then one compartment lighting up](intro.gif)
+
+*The whole idea in twenty seconds. The rest of this page takes each step in turn.*
+
 ![The test set: two tiles, three bins and the power bin](smart/set.png)
 
 *The smallest useful set: two 2×2 tiles joined edge to edge, a 2×1 bin, two 1×1 bins and the
