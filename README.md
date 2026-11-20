@@ -1,11 +1,35 @@
 # Smart Gridfinity
 
-A Gridfinity storage system, written in OpenSCAD, with an optional powered layer: each bin
-carries an ID chip and a light under every compartment, so software can light the compartment
-that holds an item. Bases work flat on a desk or on a wall with magnets.
+**A smart storage system built on Gridfinity: it knows where every bin is, and it can point
+to the one you need.**
+
+[Gridfinity](https://gridfinity.xyz/) is an open, modular storage standard: a 42 mm grid of
+baseplates and bins that you print yourself. Smart Gridfinity keeps that standard and adds
+two things to it:
+
+- **Location tracking.** Every bin carries a small ID chip. The base reads which bin stands
+  on which cell, so the system always has a current map of your storage. Move a bin, or
+  rearrange the whole grid, and the map follows without any setup.
+- **Signalling.** Every compartment has a light under a clear floor. Ask your software, or
+  an AI agent, for a part and the compartment that holds it lights up.
+
+Around those two ideas the design aims for:
+
+- **Bins that stay simple.** No battery, no radio and no processor in a bin. It gets power
+  and data through four contacts in its foot, and works at any quarter turn.
+- **A grid that grows.** Tiles snap together edge to edge and discover their neighbours.
+  One power feed runs many tiles, flat on a desk or on a wall with magnets.
+- **Optional smartness.** Plain Gridfinity bins and baseplates still fit and are included.
+  Powered parts are an addition, not a requirement.
+- **No soldering at the printed parts.** The circuit boards arrive assembled and plug or
+  screw in.
+
+Everything is open source: the OpenSCAD models, the circuit boards (KiCad, generated from
+Python), and the checks that keep the two in agreement.
 
 **Status: design stage.** The models, boards and checks agree with each other, but nothing
-has been printed, no board has been ordered or reviewed by a person, and there is no firmware.
+has been printed, no board has been ordered or reviewed by a person, and there is no
+firmware or software yet.
 
 ## What is here
 
