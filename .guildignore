@@ -1,0 +1,22 @@
+# Not project knowledge: internal notes, tool state, generated output
+internal/
+.impeccable/
+build/
+pcb/*/fab/
+*.rpt
+*.ses
+*.kicad_pcb
+*.kicad_sch
+*.kicad_pro
+*.kicad_mod
+fp-lib-table
+sym-lib-table
+*.kicad_prl
+*.lck
+*.dsn
+*.net
+*_hand.json
+*_parts.csv
+.guildignore
+# The design checks are core knowledge here
+!tests/
