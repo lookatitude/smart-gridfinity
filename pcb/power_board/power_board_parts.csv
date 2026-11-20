@@ -1,0 +1,30 @@
+Reference,Value,Footprint
+U1,"ESP32-C3-WROOM-02",RF_Module:ESP32-C3-WROOM-02
+U2,"AP2112K-3.3 (3.3 V LDO, >=500 mA)",Package_TO_SOT_SMD:SOT-23-5
+D1,"SS34 (3 A, 40 V Schottky)",Diode_SMD:D_SMA
+U6,"AP63205 class: 5 V out, 2 A, 3.8-32 V in",Package_TO_SOT_SMD:TSOT-23-6
+L1,"4.7u, saturation 3.1 A or more",Inductor_SMD:L_Bourns_SRP5030T
+D2,"Surge diode, 24 V standoff, clamps below 40 V (SMAJ24A class)",Diode_SMD:D_SMA
+C1,"100n",Capacitor_SMD:C_0603_1608Metric
+C2,"10u 50V",Capacitor_SMD:C_1206_3216Metric
+C3,"10u 50V",Capacitor_SMD:C_1206_3216Metric
+C4,"22u",Capacitor_SMD:C_0805_2012Metric
+C5,"22u",Capacitor_SMD:C_0805_2012Metric
+C6,"1u",Capacitor_SMD:C_0603_1608Metric
+C7,"1u",Capacitor_SMD:C_0603_1608Metric
+C8,"10u",Capacitor_SMD:C_0805_2012Metric
+C9,"100n",Capacitor_SMD:C_0603_1608Metric
+R1,"10k",Resistor_SMD:R_0603_1608Metric
+C10,"1u",Capacitor_SMD:C_0603_1608Metric
+R2,"10k",Resistor_SMD:R_0603_1608Metric
+R3,"10k",Resistor_SMD:R_0603_1608Metric
+R4,"10k",Resistor_SMD:R_0603_1608Metric
+J1,"PROG: 3V3 GND TX RX EN BOOT",Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+TP1,"12-24 V in",TestPoint:TestPoint_Pad_D2.0mm
+TP2,"ground",TestPoint:TestPoint_Pad_D2.0mm
+TP3,"USB D-",TestPoint:TestPoint_Pad_D2.0mm
+TP4,"USB D+",TestPoint:TestPoint_Pad_D2.0mm
+J2,"DC in, 12-24 V",TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
+F1,"PTC 3 A hold, 30 V",Fuse:Fuse_1812_4532Metric
+TP5,"feed contact +, second pin",TestPoint:TestPoint_Pad_D2.0mm
+TP6,"feed contact -, second pin",TestPoint:TestPoint_Pad_D2.0mm

@@ -1,0 +1,22 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","100n","C_0603_1608Metric",0.200000,3.300000,0.000000,bottom
+"J_IN","from the previous row (FH12-12S-0.5SH)","Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",8.000000,-5.850000,180.000000,bottom
+"J_OUT","to the next row (FH12-12S-0.5SH)","Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal",8.000000,5.850000,0.000000,bottom
+"R1","100k","R_0603_1608Metric",1.000000,-4.950000,90.000000,bottom
+"U1","74HCT4052","TSSOP-16_4.4x5mm_P0.65mm",-2.400000,7.000000,0.000000,bottom
+"P11","cell 1 ID pin","SpringPin_MillMax0906",0.000000,0.000000,0.000000,top
+"P12","cell 1 LED data pin","SpringPin_MillMax0906",5.400000,0.000000,0.000000,top
+"P13","cell 1 5 V pin","SpringPin_MillMax0906",9.200000,0.000000,0.000000,top
+"P14","cell 1 ground pin","SpringPin_MillMax0906",12.900000,0.000000,0.000000,top
+"P21","cell 2 ID pin","SpringPin_MillMax0906",42.000000,0.000000,0.000000,top
+"P22","cell 2 LED data pin","SpringPin_MillMax0906",47.400000,0.000000,0.000000,top
+"P23","cell 2 5 V pin","SpringPin_MillMax0906",51.200000,0.000000,0.000000,top
+"P24","cell 2 ground pin","SpringPin_MillMax0906",54.900000,0.000000,0.000000,top
+"P31","cell 3 ID pin","SpringPin_MillMax0906",84.000000,0.000000,0.000000,top
+"P32","cell 3 LED data pin","SpringPin_MillMax0906",89.400000,0.000000,0.000000,top
+"P33","cell 3 5 V pin","SpringPin_MillMax0906",93.200000,0.000000,0.000000,top
+"P34","cell 3 ground pin","SpringPin_MillMax0906",96.900000,0.000000,0.000000,top
+"P41","cell 4 ID pin","SpringPin_MillMax0906",126.000000,0.000000,0.000000,top
+"P42","cell 4 LED data pin","SpringPin_MillMax0906",131.400000,0.000000,0.000000,top
+"P43","cell 4 5 V pin","SpringPin_MillMax0906",135.200000,0.000000,0.000000,top
+"P44","cell 4 ground pin","SpringPin_MillMax0906",138.900000,0.000000,0.000000,top

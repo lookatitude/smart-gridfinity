@@ -1,0 +1,438 @@
+(kicad_sch 
+	(version 20250114) 
+	(generator "eeschema") 
+	(generator_version "9.0") 
+	(uuid "131b690d-e64c-4ff2-93d0-ee5ec95a7c84") 
+	(paper "A3") 
+	(title_block 
+		(title "Smart Gridfinity feed contact board")) 
+	(lib_symbols 
+		(symbol "Connector:TestPoint" 
+			(pin_numbers 
+				(hide yes)) 
+			(pin_names 
+				(offset 0.762) 
+				(hide yes)) 
+			(exclude_from_sim no) 
+			(in_bom yes) 
+			(on_board yes) 
+			(in_pos_files yes) 
+			(duplicate_pin_numbers_are_jumpers no) 
+			(property "Reference" "TP" 
+				(at 0 6.858 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "Value" "TestPoint" 
+				(at 0 5.08 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "Footprint" "" 
+				(at 5.08 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "Datasheet" "" 
+				(at 5.08 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "Description" "test point" 
+				(at 0 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "ki_keywords" "test point tp" 
+				(at 0 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "ki_fp_filters" "Pin* Test*" 
+				(at 0 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(symbol "TestPoint_0_1" 
+				(circle 
+					(center 0 3.302) 
+					(radius 0.762) 
+					(stroke 
+						(width 0) 
+						(type default)) 
+					(fill 
+						(type none)))) 
+			(symbol "TestPoint_1_1" 
+				(pin passive line 
+					(at 0 0 90) 
+					(length 2.54) 
+					(name "1" 
+						(effects 
+							(font 
+								(size 1.27 1.27)))) 
+					(number "1" 
+						(effects 
+							(font 
+								(size 1.27 1.27)))))) 
+			(embedded_fonts no)) 
+		(symbol "Mechanical:MountingHole" 
+			(pin_names 
+				(offset 1.016)) 
+			(exclude_from_sim no) 
+			(in_bom no) 
+			(on_board yes) 
+			(in_pos_files yes) 
+			(duplicate_pin_numbers_are_jumpers no) 
+			(property "Reference" "H" 
+				(at 0 5.08 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "Value" "MountingHole" 
+				(at 0 3.175 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "Footprint" "" 
+				(at 0 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "Datasheet" "" 
+				(at 0 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "Description" "Mounting Hole without connection" 
+				(at 0 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "ki_keywords" "mounting hole" 
+				(at 0 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(property "ki_fp_filters" "MountingHole*" 
+				(at 0 0 0) 
+				(show_name no) 
+				(do_not_autoplace no) 
+				(hide yes) 
+				(effects 
+					(font 
+						(size 1.27 1.27)))) 
+			(symbol "MountingHole_0_1" 
+				(circle 
+					(center 0 0) 
+					(radius 1.27) 
+					(stroke 
+						(width 1.27) 
+						(type default)) 
+					(fill 
+						(type none)))) 
+			(embedded_fonts no))) 
+	(symbol 
+		(lib_id "Connector:TestPoint") 
+		(at 147.32 25.4 0) 
+		(unit 1) 
+		(exclude_from_sim no) 
+		(in_bom yes) 
+		(on_board yes) 
+		(dnp no) 
+		(uuid "30476b26-e9a3-489f-a576-f81ca95c5c32") 
+		(property "Reference" "P1" 
+			(at 147.32 22.86 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Value" "feed pin -, x = -12" 
+			(at 147.32 27.939999999999998 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Footprint" "lib:SpringPin_MillMax0906" 
+			(at 147.32 25.4 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)) 
+				(hide yes))) 
+		(pin "1" 
+			(uuid "6b2a82c5-81e4-41b5-924e-3fe89caa49b3")) 
+		(instances 
+			(project "feed_board" 
+				(path "/131b690d-e64c-4ff2-93d0-ee5ec95a7c84" 
+					(reference "P1") 
+					(unit 1))))) 
+	(label "GND" 
+		(at 147.32 25.4 0) 
+		(effects 
+			(font 
+				(size 1.27 1.27))) 
+		(uuid "651b1a38-84d4-4b08-a766-a2f8979550f4")) 
+	(symbol 
+		(lib_id "Connector:TestPoint") 
+		(at 177.8 25.4 0) 
+		(unit 1) 
+		(exclude_from_sim no) 
+		(in_bom yes) 
+		(on_board yes) 
+		(dnp no) 
+		(uuid "ad831b38-c83f-4d25-867b-4f0deec627bd") 
+		(property "Reference" "P2" 
+			(at 177.8 22.86 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Value" "feed pin +, x = -5" 
+			(at 177.8 27.939999999999998 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Footprint" "lib:SpringPin_MillMax0906" 
+			(at 177.8 25.4 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)) 
+				(hide yes))) 
+		(pin "1" 
+			(uuid "ac45e79a-128c-4f40-9de7-592343c0cc8e")) 
+		(instances 
+			(project "feed_board" 
+				(path "/131b690d-e64c-4ff2-93d0-ee5ec95a7c84" 
+					(reference "P2") 
+					(unit 1))))) 
+	(label "VIN" 
+		(at 177.8 25.4 0) 
+		(effects 
+			(font 
+				(size 1.27 1.27))) 
+		(uuid "77a496cc-edbd-444a-90bf-5bfe7d05daaa")) 
+	(symbol 
+		(lib_id "Connector:TestPoint") 
+		(at 208.28 25.4 0) 
+		(unit 1) 
+		(exclude_from_sim no) 
+		(in_bom yes) 
+		(on_board yes) 
+		(dnp no) 
+		(uuid "197d11d5-9d0c-41f4-8eae-48279312bd3c") 
+		(property "Reference" "P3" 
+			(at 208.28 22.86 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Value" "feed pin +, x = +5" 
+			(at 208.28 27.939999999999998 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Footprint" "lib:SpringPin_MillMax0906" 
+			(at 208.28 25.4 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)) 
+				(hide yes))) 
+		(pin "1" 
+			(uuid "c53b049a-82a0-4e07-bf03-ff62db3b1984")) 
+		(instances 
+			(project "feed_board" 
+				(path "/131b690d-e64c-4ff2-93d0-ee5ec95a7c84" 
+					(reference "P3") 
+					(unit 1))))) 
+	(label "VIN" 
+		(at 208.28 25.4 0) 
+		(effects 
+			(font 
+				(size 1.27 1.27))) 
+		(uuid "83e6e914-6c04-4ef3-9b52-2f1e1a279b7f")) 
+	(symbol 
+		(lib_id "Connector:TestPoint") 
+		(at 238.76000000000002 25.4 0) 
+		(unit 1) 
+		(exclude_from_sim no) 
+		(in_bom yes) 
+		(on_board yes) 
+		(dnp no) 
+		(uuid "947a69b9-c679-42d9-8aa0-f49d8cdf884b") 
+		(property "Reference" "P4" 
+			(at 238.76000000000002 22.86 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Value" "feed pin -, x = +12" 
+			(at 238.76000000000002 27.939999999999998 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Footprint" "lib:SpringPin_MillMax0906" 
+			(at 238.76000000000002 25.4 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)) 
+				(hide yes))) 
+		(pin "1" 
+			(uuid "1972f6a4-8f4a-4bb9-aa11-00d98b31df9a")) 
+		(instances 
+			(project "feed_board" 
+				(path "/131b690d-e64c-4ff2-93d0-ee5ec95a7c84" 
+					(reference "P4") 
+					(unit 1))))) 
+	(label "GND" 
+		(at 238.76 25.4 0) 
+		(effects 
+			(font 
+				(size 1.27 1.27))) 
+		(uuid "dc7a9aa7-12a8-411c-b36e-55b38a5ed882")) 
+	(symbol 
+		(lib_id "Connector:TestPoint") 
+		(at 269.24 25.4 0) 
+		(unit 1) 
+		(exclude_from_sim no) 
+		(in_bom yes) 
+		(on_board yes) 
+		(dnp no) 
+		(uuid "27e27595-7b5f-4604-8d7e-60c85a0800e7") 
+		(property "Reference" "W1" 
+			(at 269.24 22.86 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Value" "lead to row board GND" 
+			(at 269.24 27.939999999999998 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Footprint" "lib:WirePad_2.5" 
+			(at 269.24 25.4 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)) 
+				(hide yes))) 
+		(pin "1" 
+			(uuid "effa817a-30fc-40e5-a108-c1ad59d83d6c")) 
+		(instances 
+			(project "feed_board" 
+				(path "/131b690d-e64c-4ff2-93d0-ee5ec95a7c84" 
+					(reference "W1") 
+					(unit 1))))) 
+	(label "GND" 
+		(at 269.24 25.4 0) 
+		(effects 
+			(font 
+				(size 1.27 1.27))) 
+		(uuid "cd8bb74a-4ec5-430d-aef2-117c37ad66dd")) 
+	(symbol 
+		(lib_id "Connector:TestPoint") 
+		(at 299.71999999999997 25.4 0) 
+		(unit 1) 
+		(exclude_from_sim no) 
+		(in_bom yes) 
+		(on_board yes) 
+		(dnp no) 
+		(uuid "3659a40b-4dd4-40f8-96a4-12a50d673fa4") 
+		(property "Reference" "W2" 
+			(at 299.71999999999997 22.86 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Value" "lead to row board VIN" 
+			(at 299.71999999999997 27.939999999999998 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Footprint" "lib:WirePad_2.5" 
+			(at 299.71999999999997 25.4 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)) 
+				(hide yes))) 
+		(pin "1" 
+			(uuid "772382cd-9e39-4348-8312-cbf7dbf128d7")) 
+		(instances 
+			(project "feed_board" 
+				(path "/131b690d-e64c-4ff2-93d0-ee5ec95a7c84" 
+					(reference "W2") 
+					(unit 1))))) 
+	(label "VIN" 
+		(at 299.72 25.4 0) 
+		(effects 
+			(font 
+				(size 1.27 1.27))) 
+		(uuid "7f24b327-71de-49b3-b9f0-1cf5a477cd15")) 
+	(symbol 
+		(lib_id "Mechanical:MountingHole") 
+		(at 330.2 25.4 0) 
+		(unit 1) 
+		(exclude_from_sim no) 
+		(in_bom yes) 
+		(on_board yes) 
+		(dnp no) 
+		(uuid "9e9a6411-3a32-4ad6-9c26-7ef8a1a4b0e8") 
+		(property "Reference" "H1" 
+			(at 330.2 22.86 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Value" "M2 screw, head on the back" 
+			(at 330.2 27.939999999999998 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)))) 
+		(property "Footprint" "lib:MountHole_M2_HeadBack" 
+			(at 330.2 25.4 0) 
+			(effects 
+				(font 
+					(size 1.27 1.27)) 
+				(hide yes))) 
+		(instances 
+			(project "feed_board" 
+				(path "/131b690d-e64c-4ff2-93d0-ee5ec95a7c84" 
+					(reference "H1") 
+					(unit 1))))) 
+	(text "Feed contact board. 12-24 V on the two inner pins, ground on the two outer pins." 
+		(exclude_from_sim no) 
+		(at 25.4 120 0) 
+		(effects 
+			(font 
+				(size 2 2)) 
+			(justify left)) 
+		(uuid "e8281bde-f12f-4895-bea2-6b24e32ce542")) 
+	(sheet_instances 
+		(path "/" 
+			(page "1"))) 
+	(embedded_fonts no))

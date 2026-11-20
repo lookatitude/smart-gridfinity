@@ -1,0 +1,6 @@
+Qty,Value,Footprint,References
+1,100n,C_0603_1608Metric,C1
+2,"Hirose FH12-12S-0.5SH flat-cable socket, 12-way 0.5 mm, bottom contact",Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal,J_IN J_OUT
+16,"Spring pin with solder tail, Mill-Max 0906 class, 2 A",SpringPin_MillMax0906,P11 P12 P13 P14 P21 P22 P23 P24 P31 P32 P33 P34 P41 P42 P43 P44
+1,100k,R_0603_1608Metric,R1
+1,74HCT4052,TSSOP-16_4.4x5mm_P0.65mm,U1

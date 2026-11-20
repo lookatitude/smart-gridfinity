@@ -1,0 +1,13 @@
+Reference,Value,Footprint
+TP1,"5 V ring",TestPoint:TestPoint_Pad_D2.0mm
+TP2,"ground ring",TestPoint:TestPoint_Pad_D2.0mm
+TP3,"LED data ring",TestPoint:TestPoint_Pad_D2.0mm
+TP4,"ID centre pad",TestPoint:TestPoint_Pad_D2.0mm
+TP5,"ID pad of second foot (wire)",TestPoint:TestPoint_Pad_D2.0mm
+D1,"SS14 (1 A Schottky)",Diode_SMD:D_SMA
+C1,"10u",Capacitor_SMD:C_0805_2012Metric
+C2,"100n",Capacitor_SMD:C_0603_1608Metric
+R1,"100",Resistor_SMD:R_0603_1608Metric
+R2,"100k",Resistor_SMD:R_0603_1608Metric
+J1,"LED chain: 5V DATA GND",Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+U1,"DS2431 class: 1-Wire, unique 64-bit ID, 5 V tolerant",Package_SO_J-Lead:TSOC-6_3.76x3.94mm_P1.27mm

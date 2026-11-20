@@ -1,0 +1,26 @@
+Reference,Value,Footprint
+J_IN,"from the previous row (FH12-12S-0.5SH)",Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal
+J_OUT,"to the next row (FH12-12S-0.5SH)",Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal
+U1,"74HCT4052",Package_SO:TSSOP-16_4.4x5mm_P0.65mm
+C1,"100n",Capacitor_SMD:C_0603_1608Metric
+R1,"100k",Resistor_SMD:R_0603_1608Metric
+P11,"cell 1 ID pin",lib:SpringPin_MillMax0906
+P12,"cell 1 LED data pin",lib:SpringPin_MillMax0906
+P13,"cell 1 5 V pin",lib:SpringPin_MillMax0906
+P14,"cell 1 ground pin",lib:SpringPin_MillMax0906
+H1,"M2 screw, head on the back",lib:MountHole_M2_HeadBack
+P21,"cell 2 ID pin",lib:SpringPin_MillMax0906
+P22,"cell 2 LED data pin",lib:SpringPin_MillMax0906
+P23,"cell 2 5 V pin",lib:SpringPin_MillMax0906
+P24,"cell 2 ground pin",lib:SpringPin_MillMax0906
+H2,"M2 screw, head on the back",lib:MountHole_M2_HeadBack
+P31,"cell 3 ID pin",lib:SpringPin_MillMax0906
+P32,"cell 3 LED data pin",lib:SpringPin_MillMax0906
+P33,"cell 3 5 V pin",lib:SpringPin_MillMax0906
+P34,"cell 3 ground pin",lib:SpringPin_MillMax0906
+H3,"M2 screw, head on the back",lib:MountHole_M2_HeadBack
+P41,"cell 4 ID pin",lib:SpringPin_MillMax0906
+P42,"cell 4 LED data pin",lib:SpringPin_MillMax0906
+P43,"cell 4 5 V pin",lib:SpringPin_MillMax0906
+P44,"cell 4 ground pin",lib:SpringPin_MillMax0906
+H4,"M2 screw, head on the back",lib:MountHole_M2_HeadBack

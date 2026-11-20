@@ -1,0 +1,14 @@
+Qty,Value,Footprint,References
+2,100n,C_0603_1608Metric,C1 C9
+1,10u,C_0805_2012Metric,C8
+2,10u 50V,C_0805_2012Metric,C2 C3
+3,1u,C_0603_1608Metric,C10 C6 C7
+2,22u,C_0805_2012Metric,C4 C5
+1,"SS34 (3 A, 40 V Schottky)",D_SOD-123F,D1
+1,"Surge diode, 24 V standoff, clamps below 40 V (SMAJ24A class)",D_SOD-123F,D2
+1,"PTC 3 A hold, 30 V",Fuse_1812_4532Metric,F1
+1,"4.7u, saturation 3.1 A or more",L_APV_ANR4030,L1
+4,10k,R_0603_1608Metric,R1 R2 R3 R4
+1,"AP2112K-3.3 (3.3 V LDO, >=500 mA)",SOT-23-5,U2
+1,"AP63205 class: 5 V out, 2 A, 3.8-32 V in",TSOT-23-6,U6
+1,ESP32-C3-WROOM-02,ESP32-C3-WROOM-02,U1

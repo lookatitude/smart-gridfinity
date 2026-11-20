@@ -1,0 +1,30 @@
+# Generated printable files: rebuild with ./build.sh and ./build_smart.sh
+build/
+
+# Internal notes, work logs, retired designs, progress tracking
+internal/
+
+# Tool state
+.claude/
+.impeccable/
+__pycache__/
+*.pyc
+
+# KiCad local state and generated intermediates
+*.kicad_prl
+*.lck
+*-backups/
+fp-info-cache
+*.dsn
+*.net
+*_placed.kicad_pcb
+pcb/en/
+
+# OS and editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Guild derived caches (rebuilt by /guild:learn)
+.guild/indexes/

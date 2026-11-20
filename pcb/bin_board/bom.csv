@@ -1,0 +1,7 @@
+Qty,Value,Footprint,References
+1,100n,C_0603_1608Metric,C2
+1,10u,C_0805_2012Metric,C1
+1,SS14,D_SMA,D1
+1,100,R_0603_1608Metric,R1
+1,100k,R_0603_1608Metric,R2
+1,DS2431P,TSOC-6_3.76x3.94mm_P1.27mm,U1

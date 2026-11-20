@@ -1,0 +1,8 @@
+(footprint "WirePad_1.5"
+	(version 20241229)
+	(generator "script")
+	(layer "F.Cu")
+	(descr "Bare square pad for soldering a wire, 1.5 mm, no outline")
+	(attr smd exclude_from_bom exclude_from_pos_files)
+	(pad "1" smd rect (at 0 0) (size 1.5 1.5) (layers "F.Cu" "F.Mask"))
+)

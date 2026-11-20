@@ -1,0 +1,10 @@
+(footprint "SpringPin_MillMax0906"
+	(version 20241229)
+	(generator "script")
+	(layer "F.Cu")
+	(descr "Spring-loaded contact with solder tail, Mill-Max 0906 class, 2 A. Body stands on the front, tail soldered on the back. Drill 1.1 mm is a placeholder for a tail of about 1.0 mm: set it from the chosen pin's drawing")
+	(attr through_hole)
+	(fp_circle (center 0 0) (end 1.1 0) (stroke (width 0.1) (type solid)) (fill no) (layer "F.Fab"))
+	(fp_circle (center 0 0) (end 1.1 0) (stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd"))
+	(pad "1" thru_hole circle (at 0 0) (size 2.0 2.0) (drill 1.1) (layers "*.Cu" "*.Mask"))
+)

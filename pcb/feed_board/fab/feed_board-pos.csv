@@ -1,0 +1,5 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"P1","feed pin -, x = -12","SpringPin_MillMax0906",-12.000000,0.000000,0.000000,top
+"P2","feed pin +, x = -5","SpringPin_MillMax0906",-5.000000,0.000000,0.000000,top
+"P3","feed pin +, x = +5","SpringPin_MillMax0906",5.000000,0.000000,0.000000,top
+"P4","feed pin -, x = +12","SpringPin_MillMax0906",12.000000,0.000000,0.000000,top

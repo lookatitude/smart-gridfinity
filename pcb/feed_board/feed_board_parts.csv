@@ -1,0 +1,8 @@
+Reference,Value,Footprint
+P1,"feed pin -, x = -12",lib:SpringPin_MillMax0906
+P2,"feed pin +, x = -5",lib:SpringPin_MillMax0906
+P3,"feed pin +, x = +5",lib:SpringPin_MillMax0906
+P4,"feed pin -, x = +12",lib:SpringPin_MillMax0906
+W1,"lead to row board GND",lib:WirePad_2.5
+W2,"lead to row board VIN",lib:WirePad_2.5
+H1,"M2 screw, head on the back",lib:MountHole_M2_HeadBack

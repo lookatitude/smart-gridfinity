@@ -1,0 +1,574 @@
+{
+  "rigor": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "auto_approve": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "review": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "host": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "host_mode": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "roles.host": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "roles.advisory": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "roles.adversarial": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "host_profiles": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "initiative_default": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "index": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "record_status_runs": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "codex_skip_enforcement": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "agent_mode": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "workspace.mode": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.enabled": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.claude-code-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.codex-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.pi-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.antigravity-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.agents-file": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.claude-code-app": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.claude-code-web": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.codex-app": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.claude-ai-connector": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.cursor": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.github-copilot": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.opencode": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.rovo-dev": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.kiro": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.qoder": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.cheap.trae": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.claude-code-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.codex-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.pi-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.antigravity-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.agents-file": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.claude-code-app": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.claude-code-web": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.codex-app": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.claude-ai-connector": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.cursor": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.github-copilot": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.opencode": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.rovo-dev": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.kiro": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.qoder": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.mid.trae": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.claude-code-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.codex-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.pi-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.antigravity-cli": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.agents-file": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.claude-code-app": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.claude-code-web": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.codex-app": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.claude-ai-connector": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.cursor": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.github-copilot": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.opencode": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.rovo-dev": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.kiro": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.qoder": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.tiers.powerful.trae": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.scoreWeights.workType": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.scoreWeights.blastRadius": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.scoreWeights.dependsOn": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.scoreWeights.security": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.scoreWeights.priorEscalation": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.thresholds.mid": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.thresholds.powerful": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.advisorRounds": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.escalationMarkers": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.recallBeforeRead": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.recallScoreThreshold": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.structuredOutputRequired": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.cacheTTL.coordinator": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.cacheTTL.leaf": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.importanceGate": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.compositeRecall": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.importanceAtIngest": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.ingestSimilarityGate": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.shortOutputThreshold": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.knowledge.maxDepth": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.knowledge.maxBranching": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.knowledge.minTopicImportance": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.knowledge.relMinConf": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.knowledge.maxFiles": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.knowledge.maxTokens": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "models.knowledge.batchSize": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "security.bypass_permissions_policy": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "secrets_policy.env_allowlist": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "secrets_policy.redaction_patterns": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "secrets_policy.fail_mode_durable": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "secrets_policy.fail_mode_telemetry": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "mcp.tool_description_hashes": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "mcp.stdio_available": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "mcp.http_available": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "mcp.bridge_package": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "capability.resolver_mode": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "capability.suggestion_budget": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "capability.starter_roles": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "capability.auto_create_policy": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "statusline": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "adversarial_review_provider": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "loops": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "loop_cap": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "codex_cap": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "model_policy": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.auto_learn": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.adversarial": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.team.size": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.team.always_include": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.review_workflow": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.skill_policy": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.gates.auto_approve": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.wiki.share_mode": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.wiki.autopromote": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.quality.budget.per_class_minutes": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.quality.budget.total_minutes": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.reporting": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.index.enabled": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.index.kg_node_threshold": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.index.kg_size_threshold_mb": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.index.links_edge_threshold": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.index.runs_threshold": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.index.wiki_file_threshold": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.cross_host.enabled": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.cross_host.hosts": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.cross_host.fallback_to_claude": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.retry.max_attempts": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.retry.backoff": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.resume.enabled": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.heartbeat_timeout_ms": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.capability_manifest_ttl_s": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.update.mode": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.update.cadence_hours": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.allowed_tools": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.lean_lead.enabled": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.lean_lead.hands_on_edit_threshold": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.lifecycle_gate.enabled": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.lifecycle_gate.adhoc_activity_threshold": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  },
+  "defaults.dispatch.block_unmarked_lanes": {
+    "provenance": "reconciled",
+    "last_reconciled_at": "2026-11-20T01:18:20.508Z"
+  }
+}
