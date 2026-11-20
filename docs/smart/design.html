@@ -257,7 +257,7 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
       </tbody>
     </table>
   </div>
-  <p>How far one feed reaches, with every radio on and one connector pair per joint. These figures come from the other session's calculation, not from a measurement. Before the wiring limits, one pair of feed pins limits a grid to about 40 tiles at 12 V and 80 at 24 V; the power cell has two pairs.</p>
+  <p>How far one feed reaches, with every radio on and one connector pair per joint. These figures are calculated, not measured. Before the wiring limits, one pair of feed pins limits a grid to about 40 tiles at 12 V and 80 at 24 V; the power cell has two pairs.</p>
 </section>
 
 <section>
@@ -311,7 +311,6 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
   <ul>
     <li><strong>The bin board</strong> is round, 28.6 mm across, and is glued into a recess in the foot with its rings 0.1 mm proud.</li>
     <li><strong>Checked:</strong> every pin stays on its own ring, and only that ring, with the foot up to 1.6 mm off-centre. The socket only allows 1.05 mm.</li>
-    <li><strong>A change from the first board proposal:</strong> its outer ring reached 14.6 mm from the centre, which left too little plastic next to the magnets. The rings are now slightly closer together and the outer one ends at 13.8 mm.</li>
     <li><strong>Wall mounting:</strong> the front-left magnet pocket of every cell has a hole under it. A pan-head screw goes there in place of the magnet, well away from the rings.</li>
   </ul>
 </section>
@@ -392,7 +391,7 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
 
 <section>
   <h2>Wiring inside one tile</h2>
-  <p>You chose row boards. One board lies under every row of cells and carries that row's spring pins, soldered on by the board maker. Shown for a tile three rows deep, seen from above.</p>
+  <p>One board lies under every row of cells and carries that row's spring pins, soldered on by the board maker. Shown for a tile three rows deep, seen from above.</p>
   <div class="diagram">
     <div class="scroll">
       <svg viewBox="0 0 760 380" role="img" aria-label="Plan of a tile three rows deep, seen from above. Each row has one long board with four groups of four pins. The board of the front row is wider at the left and holds the radio module, the converter and the switches. The boards of rows two and three are narrow strips with a wider end holding a switch chip. A short flat cable joins each row to the next at the left. Leads from the edge connectors go to the front row's board.">
@@ -442,7 +441,6 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
     <li><strong>Further rows:</strong> a narrow strip with one small switch chip. When its row is picked, the chip connects one of its four cells to the shared ID line and light-command line.</li>
     <li><strong>Between rows:</strong> one flat cable, 12 wires, 30 mm long, a stock part. Every cable is the same and carries 5 V, ground, the two shared lines, two cell-select lines and three row-select lines. Each strip passes the row-select lines on shifted by one, so every strip is identical and needs no setting.</li>
     <li><strong>One length fits all tiles:</strong> both boards are made four cells long, with snap lines after each cell group. A 2×2 tile uses the same boards as a 4×4, snapped shorter.</li>
-    <li><strong>Count:</strong> a 4×4 tile takes 4 boards and 3 cables. The contact-board design needed 17 boards and 16 cables.</li>
     <li><strong>Fixing:</strong> push the pins up through their holes and drive one M2 screw per cell. The pins locate the board.</li>
     <li><strong>What you still solder, on the bench:</strong> the leads from the edge connectors and the feed board onto pads on the first row's board, before it goes into the tile.</li>
   </ul>
@@ -758,7 +756,7 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
 
 <section>
   <h2>Soldering: keeping the iron away from printed parts</h2>
-  <p>You asked to avoid soldering close to printed parts. With the row boards, no joint is made inside a tile any more. This is where every joint is made.</p>
+  <p>The design avoids soldering close to printed parts: no joint is made inside a tile. This is where every joint is made.</p>
   <div class="tablewrap">
     <table>
       <thead><tr><th>Joint</th><th>How many</th><th>Where the iron is</th><th>Status</th></tr></thead>
