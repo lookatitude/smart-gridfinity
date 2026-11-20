@@ -16,7 +16,6 @@ in about ten minutes. Everything else goes deeper on one topic.
 | Run the design checks myself | [`tests/README.md`](../tests/README.md) |
 | Work on the circuit boards | [`pcb/README.md`](../pcb/README.md) |
 | Change a model | [Parts guide: changing a model](parts-guide.md#changing-a-model) |
-| Know why the design is the way it is | [History](HISTORY.md) |
 
 ## All documents
 
@@ -28,7 +27,6 @@ in about ten minutes. Everything else goes deeper on one topic.
 | [status.md](status.md) | What was checked, with results, and what the design does not settle |
 | [smart/parts.md](smart/parts.md) | Materials list with specifications, quantities and sources |
 | [Design page](https://lookatitude.github.io/smart-gridfinity/smart/design.html) | The full illustrated design page, with diagrams (source: `smart/design.html`) |
-| [HISTORY.md](HISTORY.md) | Earlier designs and why they were dropped. Background, not the current design |
 | [`../pcb/README.md`](../pcb/README.md) | The five boards, the contact and cable order, how to regenerate them |
 | [`../tests/README.md`](../tests/README.md) | Each design check, what it proves, how to run it |
 

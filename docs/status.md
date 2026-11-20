@@ -33,7 +33,7 @@ How to run these yourself: [`tests/README.md`](../tests/README.md) and [`pcb/REA
 | Power, full collection at 12 V | 5.4 W, 0.45 A; furthest tile still gets 11.87 V |
 | Collisions between parts (62 fit checks) | None, in eight tile variants, with bins, drawer unit and power bin |
 | Power bin the wrong way round or on a normal cell | Does not seat, as intended |
-| Cable socket, converter, radio module and coil against data sheets | Four corrections made (socket width, cable current limit, coil value, surge diode) |
+| Cable socket, converter, radio module and coil against data sheets | Model and boards use the data-sheet values: socket size and current rating, coil value, voltage limits, module height |
 
 ## Limits the design already knows about
 

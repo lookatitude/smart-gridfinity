@@ -29,4 +29,4 @@ Validate by calculation, simulation and fit check before buying. Specify bought 
 
 ## Source
 
-Learn run run-20261120-012744-learn, approved by the project owner. Repository files: docs/HISTORY.md#standing-principles. Raw capture: `.guild/knowledge/sources/design-principles/`.
+Learn run run-20261120-012744-learn, approved by the project owner. Repository files: internal history notes (not in the repository). Raw capture: `.guild/knowledge/sources/design-principles/`.

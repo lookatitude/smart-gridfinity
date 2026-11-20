@@ -561,7 +561,7 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
     <li><strong>Position:</strong> the unit is read like any 4×3 bin, and the contents table has one row per drawer compartment.</li>
     <li><strong>Printing:</strong> the shell prints standing on its back wall, so the closed top needs no supports. The drawer and its clear parts are one two-colour print.</li>
   </ul>
-  <p class="note">Decided: drawer units have a plain top. Standard bins can stand on it unpowered; a second level of smart bins on top is not part of the design.</p>
+  <p class="note">Drawer units have a plain top. Standard bins can stand on it unpowered; a second level of smart bins on top is not part of the design.</p>
 </section>
 
 <section>
@@ -682,22 +682,22 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
 </section>
 
 <section>
-  <h2>What was checked, and what it showed</h2>
+  <h2>What was checked</h2>
   <p>These are calculations, simulations, tests on the 3D models, and the automatic rule checks of the board design program. The scripts are in the project's tests and pcb folders. None of this replaces a physical test, and no person has reviewed the boards.</p>
   <div class="tablewrap">
     <table>
-      <thead><tr><th>Check</th><th>Result</th><th>Change it caused</th></tr></thead>
+      <thead><tr><th>Check</th><th>Result</th></tr></thead>
       <tbody>
-        <tr><td>Pins against rings, foot off-centre in any direction</td><td>Correct up to 1.6 mm off-centre; the socket allows 1.05 mm</td><td>Rings moved inward so the board clears the magnets by 0.63 mm</td></tr>
-        <tr><td>Board schematics and layouts, automatic rule checks</td><td>All five boards: 0 errors, 0 warnings, 0 open connections. The first-row board is checked at 0.125 mm track spacing, the others at 0.15 mm</td><td>–</td></tr>
-        <tr><td>Signal simulation: ID line, light-command line, neighbour pin, 5 V and 24 V faults</td><td>All within limits, also with the row boards' switch chip at its worst-case resistance</td><td>Protection parts on the boards</td></tr>
-        <tr><td>Position discovery on the full layout and on the drawer row</td><td>All tiles, bins and drawer units placed correctly</td><td>One connector pair per joint is enough</td></tr>
-        <tr><td>Power, full collection, 12 V feed</td><td>5.4 W, 0.45 A; furthest tile 11.87 V. Busiest tile with every LED full white: 1.05 A of the 2 A its converter allows, and up to 0.96 A through a flat cable whose sockets allow 0.7 A, so the firmware must hold full white to 11 lights behind any one cable. Lit the way an item is shown, 16 lights draw 0.32 A</td><td>No sleep scheme needed. All LEDs full white would be 25 W, so the supply should allow for it or the firmware should cap it.</td></tr>
-        <tr><td>25 fit checks on the printed parts: foot in socket, bin across tiles, false floor past the lip, key in pockets, foot and power bin, drawer closed and open, power bin right and wrong way round</td><td>All pass after four fixes</td><td>Latch groove widened; drawer opening made square; rubber-foot pads moved onto the screw posts; label tabs refused on compartments too shallow for them</td></tr>
-        <tr><td>34 fit checks on what goes into the cavity: row boards, cables, feed board and edge connectors in eight tiles (2×2, 2×3, 3×3, 4×3, 4×4, and starter tiles 2×2, 2×3, 4×3), each against the tile, the edge connectors and each other</td><td>All clear. A strip moved 1 mm out of place collides, as it should</td><td>The first row's board got its present outline. The flat cable went from 1.0 to 0.5 mm pitch, because only that is stocked 30 mm short</td></tr>
-        <tr><td>Cable socket, converter, radio module and coil against their makers' data sheets</td><td>Socket: contacts on the board side, 2.0 mm tall, 0.5 A per contact, latch on the cable side, as assumed; it is 10.1 mm wide, not 9.4 mm, and the maker asks for 70 % of the rating when every contact carries current. Converter: pin order, 12–24 V input and capacitors as drawn; the maker's table gives a 4.7 µH coil, not 6.8 µH. The surge diode chosen could let 42 V through; the converter stands 40 V</td><td>Socket widened in the model; cable limit lowered to 0.7 A; coil changed to 4.7 µH; surge diode changed to a 24 V type that clamps at 38.9 V; module height set to 3.35 mm</td></tr>
-        <tr><td>Boards against the models: ring sizes, pin, hole and socket positions, board outlines</td><td>Rings, outlines and positions match; the row boards to 0.05 mm. The bin board's LED pads did not fit the pocket in the bin foot</td><td>Pocket widened over the pads; openings enlarged so a finished LED chain can be fed in</td></tr>
-        <tr><td>Part sizes from a web search</td><td>Standard test pins are too long; classic LEDs need a higher data voltage</td><td>Short 2 mm spring contacts; LED type that accepts 3.3 V data</td></tr>
+        <tr><td>Pins against rings, foot off-centre in any direction</td><td>Correct up to 1.6 mm off-centre; the socket allows 1.05 mm</td></tr>
+        <tr><td>Board schematics and layouts, automatic rule checks</td><td>All five boards: 0 errors, 0 warnings, 0 open connections. The first-row board is checked at 0.125 mm track spacing, the others at 0.15 mm</td></tr>
+        <tr><td>Signal simulation: ID line, light-command line, neighbour pin, 5 V and 24 V faults</td><td>All within limits, also with the row boards' switch chip at its worst-case resistance</td></tr>
+        <tr><td>Position discovery on the full layout and on the drawer row</td><td>All tiles, bins and drawer units placed correctly</td></tr>
+        <tr><td>Power, full collection, 12 V feed</td><td>5.4 W, 0.45 A; furthest tile 11.87 V. Busiest tile with every LED full white: 1.05 A of the 2 A its converter allows, and up to 0.96 A through a flat cable whose sockets allow 0.7 A, so the firmware must hold full white to 11 lights behind any one cable. Lit the way an item is shown, 16 lights draw 0.32 A</td></tr>
+        <tr><td>25 fit checks on the printed parts: foot in socket, bin across tiles, false floor past the lip, key in pockets, foot and power bin, drawer closed and open, power bin right and wrong way round</td><td>All pass</td></tr>
+        <tr><td>34 fit checks on what goes into the cavity: row boards, cables, feed board and edge connectors in eight tiles (2×2, 2×3, 3×3, 4×3, 4×4, and starter tiles 2×2, 2×3, 4×3), each against the tile, the edge connectors and each other</td><td>All clear. A strip moved 1 mm out of place collides, as it should</td></tr>
+        <tr><td>Cable socket, converter, radio module and coil against their makers' data sheets</td><td>Socket: contacts on the board side, 2.0 mm tall, 10.1 mm wide, 0.5 A per contact and 70 % of that when every contact carries current, latch on the cable side. Converter: pin order, 12–24 V input, 4.7 µH coil and capacitors as in the maker's table; it stands 40 V, and the surge diode clamps at 38.9 V. Radio module 3.2 ± 0.15 mm tall. The model and boards use these values</td></tr>
+        <tr><td>Boards against the models: ring sizes, pin, hole and socket positions, board outlines</td><td>Rings, outlines and positions match; the row boards to 0.05 mm</td></tr>
+        <tr><td>Part sizes from a web search</td><td>Short 2 mm spring contacts fit the tile height; the LED type chosen accepts 3.3 V data</td></tr>
       </tbody>
     </table>
   </div>
@@ -799,7 +799,7 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
   </div>
   <ul>
     <li><strong>Custom boards:</strong> five designs, ordered assembled and pre-flashed, with the spring pins on them. No total cost is estimated, because the boards have not been quoted.</li>
-    <li><strong>Spring pins</strong> are now part of the board order: 2.0 mm barrel, 5.5 mm free height, solder tail, 2 A, stroke 1.2 mm or more. A row board carries 16.</li>
+    <li><strong>Spring pins</strong> are part of the board order: 2.0 mm barrel, 5.5 mm free height, solder tail, 2 A, stroke 1.2 mm or more. A row board carries 16.</li>
     <li><strong>Measure before printing:</strong> spring pin, edge connector, DC socket and screw-head sizes vary between sellers. Their openings in the model are still estimates.</li>
     <li><strong>Drawer row:</strong> three 4×3 drawer units on their own tiles with their own power bin. On the same grid as the collection it shares that grid's power bin.</li>
     <li><strong>Magnet polarity:</strong> every tile magnet goes in with the same pole up, and every bin magnet with the opposite pole down. A reversed magnet pushes the bin off its pins.</li>
@@ -814,7 +814,7 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
     <li><strong>5 V copper is thin in places.</strong> The last 2 mm onto the cable socket is 0.8 mm wide, and the 5 V run along the first-row board is on inner layers, which board makers often make thinner. Fine on paper for 1 A; not measured.</li>
     <li><strong>Cable socket latch in the tile:</strong> the latch lifts on the cable side and needs a fingertip between two rows, 21.5 mm apart. Not tried by hand. Open, it stands 4.8 mm tall, past the tile's underside, so cables go in with the tile upside down.</li>
     <li><strong>Snapping a strip shorter</strong> cuts through 5 V and ground copper lying 0.7 mm apart. Untested; a board maker has not been asked whether they will score a 6 mm strip.</li>
-    <li><strong>Small part heights</strong> (capacitors, diodes, chips other than the converter) are still from memory. The four tallest are now from data sheets.</li>
+    <li><strong>Small part heights</strong> (capacitors, diodes, chips other than the converter) are still from memory. The four tallest are from data sheets.</li>
     <li><strong>Part values not checked against datasheets:</strong> whether the ID chip tolerates 5 V on its data pin, the exact types of the switch chips, and the LED timing limits.</li>
     <li><strong>Nobody has reviewed the boards.</strong> Passing automatic rule checks does not make a board correct.</li>
     <li><strong>The power bin's contacts and DC socket</strong> are a proposal and are untested: brass screw heads on spring pins, carrying up to 4 A.</li>
@@ -829,7 +829,7 @@ svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
     <li><strong>Live pins in empty sockets.</strong> A 5 V pin is exposed in every empty cell. Each tile's converter limits the current.</li>
     <li><strong>Glow around a jar.</strong> The clear sleeve has to carry the light up from the floor: about 23 mm in the paint bin and 44 mm in the bottle bin. How bright the top face is remains untested.</li>
     <li><strong>Printing.</strong> The socket floor is a roof over the wiring space, so the tile needs supports. The smart parts need a 0.4 mm nozzle; some features are too fine for 0.6 mm.</li>
-    <li><strong>Edge connector keying.</strong> Named-brand connectors repel when reversed. Cheap copies are unverified: check before wiring, because the connector now carries up to 24 V.</li>
+    <li><strong>Edge connector keying.</strong> Named-brand connectors repel when reversed. Cheap copies are unverified: check before wiring, because the connector carries up to 24 V.</li>
     <li><strong>Firmware</strong> for the tiles and the hub does not exist yet.</li>
     <li><strong>Stacked smart bins</strong> keep their latches pressed in, which may weaken them over time.</li>
     <li><strong>Wall holders.</strong> A normal bin on a wall faces outward. Paint bottles need a holder with the foot on its back, which is a separate part still to design.</li>

@@ -27,4 +27,4 @@ Dropped: a radio board in every bin with resistor-ladder addressing (24 radios, 
 
 ## Source
 
-Learn run run-20261120-012744-learn, approved by the project owner. Repository files: docs/HISTORY.md. Raw capture: `.guild/knowledge/sources/dropped-designs/`.
+Learn run run-20261120-012744-learn, approved by the project owner. Repository files: internal history notes (not in the repository). Raw capture: `.guild/knowledge/sources/dropped-designs/`.

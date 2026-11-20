@@ -11,9 +11,9 @@ status: candidate
 | Every dimension shared by models and boards is defined once in `lib/smart.scad` | `lib/smart.scad`, `pcb/check_rows.py` | high |
 | Each cell has four spring pins on a line from the cell centre: ID 0 mm, light data 5.4 mm, 5 V 9.2 mm, ground 12.9 mm | `pcb/README.md#contacts`, `tests/contacts.py` | high |
 | A bin works at any quarter turn, because the bin board has concentric rings | `pcb/README.md#contacts` | high |
-| A tile is 2×2 to 4×4 cells; one board per row; rows joined by a 12-way 0.5 mm flat cable | `pcb/README.md#circuit-boards`, `docs/HISTORY.md#wiring-inside-the-tile-three-attempts` | high |
+| A tile is 2×2 to 4×4 cells; one board per row; rows joined by a 12-way 0.5 mm flat cable | `pcb/README.md#circuit-boards`, internal history notes (not in the repository) | high |
 | Cable nets are assigned by position 1–12, and three row-enable lines shift by one per strip | `pcb/boards.py` (`ffc_nets`, `row_strip`, `row_main`) | high |
-| Grid distribution is 12–24 V; each tile converts to 5 V | `docs/HISTORY.md#from-5-v-to-1224-v-distribution`, `pcb/grid_limits.py` | high |
+| Grid distribution is 12–24 V; each tile converts to 5 V | internal history notes (not in the repository), `pcb/grid_limits.py` | high |
 | One flat cable carries at most 0.7 A at 5 V; firmware must cap full white at 11 lights behind a cable | `tests/power.py`, `pcb/README.md#known-limits` | high |
 | All five boards pass KiCad ERC and DRC with 0 findings | `pcb/*/erc.rpt`, `pcb/*/drc.rpt` | high (as of the last `outputs.py` run) |
 | Row-board positions match the model within 0.05 mm | `pcb/check_rows.py` | high |
