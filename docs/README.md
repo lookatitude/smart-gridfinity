@@ -27,7 +27,7 @@ in about ten minutes. Everything else goes deeper on one topic.
 | [glossary.md](glossary.md) | The project's vocabulary |
 | [status.md](status.md) | What was checked, with results, and what the design does not settle |
 | [smart/parts.md](smart/parts.md) | Materials list with specifications, quantities and sources |
-| [smart/design.html](smart/design.html) | The full illustrated design page, with diagrams. GitHub shows HTML as source: download it, or clone the repository, and open it in a browser |
+| [Design page](https://lookatitude.github.io/smart-gridfinity/smart/design.html) | The full illustrated design page, with diagrams (source: `smart/design.html`) |
 | [HISTORY.md](HISTORY.md) | Earlier designs and why they were dropped. Background, not the current design |
 | [`../pcb/README.md`](../pcb/README.md) | The five boards, the contact and cable order, how to regenerate them |
 | [`../tests/README.md`](../tests/README.md) | Each design check, what it proves, how to run it |

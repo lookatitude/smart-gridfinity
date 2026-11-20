@@ -39,6 +39,7 @@ firmware or software yet.
 | [Parts guide](docs/parts-guide.md) | Every printed part and board, which file makes it, how to print |
 | [Status and open questions](docs/status.md) | What has been checked, and what has not |
 | [Glossary](docs/glossary.md) | Tile, cell, row board, power cell and the rest |
+| [Illustrated design page](https://lookatitude.github.io/smart-gridfinity/smart/design.html) | The full design on one page, with diagrams |
 | [All documentation](docs/README.md) | Index by what you want to do |
 
 ## What is in the repository
