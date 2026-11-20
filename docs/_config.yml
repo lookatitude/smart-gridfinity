@@ -1,2 +1,10 @@
 title: Smart Gridfinity
 description: A smart storage system built on Gridfinity, with location tracking and signalling
+nav:
+  - { title: "Overview", url: "/" }
+  - { title: "How it works", url: "/how-it-works.html" }
+  - { title: "Parts guide", url: "/parts-guide.html" }
+  - { title: "Materials", url: "/smart/parts.html" }
+  - { title: "Status", url: "/status.html" }
+  - { title: "Glossary", url: "/glossary.html" }
+  - { title: "Design page", url: "/smart/design.html" }

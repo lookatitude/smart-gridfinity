@@ -207,4 +207,4 @@ and all 16 bins correctly, including bins that sit across a joint. It draws abou
 - Every part and which file makes it: [Parts guide](parts-guide.md)
 - What has been verified: [Status and open questions](status.md)
 - What to buy: [Materials list](smart/parts.md)
-- The boards in detail: [`pcb/README.md`](../pcb/README.md)
+- The boards in detail: [`pcb/README.md`](https://github.com/lookatitude/smart-gridfinity/blob/main/pcb/README.md)

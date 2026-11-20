@@ -68,7 +68,7 @@ parameters in the Customizer, or add a line to `build_smart.sh`.
 ## Circuit boards
 
 Five custom boards, meant to be ordered assembled. All are unreviewed drafts. Details,
-contact order and fabrication files are in [`pcb/README.md`](../pcb/README.md).
+contact order and fabrication files are in [`pcb/README.md`](https://github.com/lookatitude/smart-gridfinity/blob/main/pcb/README.md).
 
 | Board | Folder | Goes where | Per tile or bin |
 |---|---|---|---|

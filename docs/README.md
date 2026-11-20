@@ -13,8 +13,8 @@ in about ten minutes. Everything else goes deeper on one topic.
 | Print something | [Parts guide: printing](parts-guide.md#printing), and the [releases](https://github.com/lookatitude/smart-gridfinity/releases) for ready-made STL files |
 | Know what to buy, by specification | [Materials list](smart/parts.md) |
 | Know what has been verified and what is still open | [Status and open questions](status.md) |
-| Run the design checks myself | [`tests/README.md`](../tests/README.md) |
-| Work on the circuit boards | [`pcb/README.md`](../pcb/README.md) |
+| Run the design checks myself | [`tests/README.md`](https://github.com/lookatitude/smart-gridfinity/blob/main/tests/README.md) |
+| Work on the circuit boards | [`pcb/README.md`](https://github.com/lookatitude/smart-gridfinity/blob/main/pcb/README.md) |
 | Change a model | [Parts guide: changing a model](parts-guide.md#changing-a-model) |
 
 ## All documents
@@ -27,8 +27,8 @@ in about ten minutes. Everything else goes deeper on one topic.
 | [status.md](status.md) | What was checked, with results, and what the design does not settle |
 | [smart/parts.md](smart/parts.md) | Materials list with specifications, quantities and sources |
 | [Design page](https://lookatitude.github.io/smart-gridfinity/smart/design.html) | The full illustrated design page, with diagrams (source: `smart/design.html`) |
-| [`../pcb/README.md`](../pcb/README.md) | The five boards, the contact and cable order, how to regenerate them |
-| [`../tests/README.md`](../tests/README.md) | Each design check, what it proves, how to run it |
+| [`pcb/README.md`](https://github.com/lookatitude/smart-gridfinity/blob/main/pcb/README.md) | The five boards, the contact and cable order, how to regenerate them |
+| [`tests/README.md`](https://github.com/lookatitude/smart-gridfinity/blob/main/tests/README.md) | Each design check, what it proves, how to run it |
 
 ## Where things are in the repository
 

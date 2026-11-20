@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body>
+{% assign here = page.url | replace: 'index.html', '' %}
+<nav class="sitenav" aria-label="Documentation">
+  <div class="inner">
+    <a class="brand" href="{{ '/' | relative_url }}">Smart Gridfinity</a>
+    {% for item in site.nav %}
+    <a class="item" href="{{ item.url | relative_url }}"{% if here == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {% endfor %}
+    <a class="item" href="https://github.com/lookatitude/smart-gridfinity">GitHub</a>
+  </div>
+</nav>
+<main class="page prose">
+{{ content }}
+</main>
+<footer class="sitefoot">Design stage: nothing here has been printed or built. Open source under the MIT licence.</footer>
+</body>
+</html>

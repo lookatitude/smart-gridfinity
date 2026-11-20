@@ -28,7 +28,7 @@
   --part-base: #5d6975; --part-bin: #d48f2a; --part-clear: #8fd3e6; --metal: #c3cad1;
   color-scheme: dark;
 }
-body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6; }
 .page { max-width: 980px; margin: 0 auto; padding-block: 40px 72px;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
   display: flex; flex-direction: column; gap: 44px; }
@@ -59,7 +59,27 @@ td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-spa
 svg text { font-family: var(--body); font-size: 13px; fill: var(--ink); }
 svg .small { font-size: 12.5px; fill: var(--muted); }
 svg .lead { stroke: var(--muted); stroke-width: 1; fill: none; }
+.sitenav { background: var(--surface); border-bottom: 1px solid var(--line); }
+.sitenav .inner { max-width: 980px; margin: 0 auto; padding: 12px 16px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 20px; }
+.sitenav .brand { font-family: var(--display); font-weight: 600; font-size: 17px; color: var(--ink); text-decoration: none; margin-right: 8px; }
+.sitenav a.item { font-size: 14px; color: var(--muted); text-decoration: none; padding: 2px 0; border-bottom: 2px solid transparent; }
+.sitenav a.item:hover, .sitenav a.item:focus-visible { color: var(--ink); border-bottom-color: var(--line); }
+.sitenav a.item[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
 </style>
+
+<nav class="sitenav" aria-label="Documentation">
+  <div class="inner">
+    <a class="brand" href="https://lookatitude.github.io/smart-gridfinity/">Smart Gridfinity</a>
+    <a class="item" href="https://lookatitude.github.io/smart-gridfinity/">Overview</a>
+    <a class="item" href="https://lookatitude.github.io/smart-gridfinity/how-it-works.html">How it works</a>
+    <a class="item" href="https://lookatitude.github.io/smart-gridfinity/parts-guide.html">Parts guide</a>
+    <a class="item" href="https://lookatitude.github.io/smart-gridfinity/smart/parts.html">Materials</a>
+    <a class="item" href="https://lookatitude.github.io/smart-gridfinity/status.html">Status</a>
+    <a class="item" href="https://lookatitude.github.io/smart-gridfinity/glossary.html">Glossary</a>
+    <a class="item" href="https://lookatitude.github.io/smart-gridfinity/smart/design.html" aria-current="page">Design page</a>
+    <a class="item" href="https://github.com/lookatitude/smart-gridfinity">GitHub</a>
+  </div>
+</nav>
 
 <div class="page">
 

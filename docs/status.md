@@ -20,7 +20,7 @@ says what those checks cover, and what they cannot.
 
 ## What was checked
 
-How to run these yourself: [`tests/README.md`](../tests/README.md) and [`pcb/README.md`](../pcb/README.md).
+How to run these yourself: [`tests/README.md`](https://github.com/lookatitude/smart-gridfinity/blob/main/tests/README.md) and [`pcb/README.md`](https://github.com/lookatitude/smart-gridfinity/blob/main/pcb/README.md).
 
 | Check | Result |
 |---|---|
