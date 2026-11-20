@@ -6,7 +6,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 WORK="${1:-$(mktemp -d)}"; mkdir -p "$WORK"
-CAMERA="-42,0,22,48,0,24,540"       # angles must match CAM in assembly_intro.scad
+CAMERA="-42,-8,14,48,0,24,640"      # angles must match CAM in assembly_intro.scad
 FONT="${FONT:-Liberation-Sans-Bold}"
 
 caption() {   # caption for frame $1
